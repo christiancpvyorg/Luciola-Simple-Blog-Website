@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang=en>
+<head>
+<meta charset=UTF-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>Luciola</title>
+<link rel=preconnect href=https://fonts.googleapis.com>
+<link rel=preconnect href=https://fonts.gstatic.com crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap" rel=stylesheet>
+<link rel=stylesheet href=style.css>
+<link href=https://cdn.jsdelivr.net/npm/remixicon@latest/fonts/remixicon.css rel=stylesheet>
+<link rel="icon" type="image/png" href="/favicon.png">
+<script src=https://cdn.jsdelivr.net/npm/marked/marked.min.js></script>
+</head>
+<body>
+<header class=header>
+<div class=container>
+<div class=header-content>
+<div class="logo animate-on-load" style=animation-delay:.1s>
+<h1>Luciola</h1>
+<span class=tagline>Developer & Writer</span>
+</div>
+<nav class=nav>
+<a href=#home class="nav-link active animate-on-load" style=animation-delay:.2s>Home</a>
+<a href=#featured class="nav-link animate-on-load" style=animation-delay:.3s>Featured</a>
+<a href=#latest class="nav-link animate-on-load" style=animation-delay:.4s>Latest</a>
+</nav>
+<button class="menu-toggle animate-on-load" aria-label="Toggle menu" style=animation-delay:.7s>
+<span class="menu-line menu-line-1"></span>
+<span class="menu-line menu-line-2"></span>
+<span class="menu-line menu-line-3"></span>
+</button>
+</div>
+</div>
+</header>
+<div class=mobile-menu-overlay id=mobile-menu-overlay>
+<div class=mobile-menu-content>
+<nav class=mobile-nav>
+<a href=#home class=mobile-nav-link data-index=1>
+<span class=mobile-nav-text>Home</span>
+<span class=mobile-nav-indicator></span>
+</a>
+<a href=#featured class=mobile-nav-link data-index=2>
+<span class=mobile-nav-text>Featured</span>
+<span class=mobile-nav-indicator></span>
+</a>
+<a href=#latest class=mobile-nav-link data-index=3>
+<span class=mobile-nav-text>Latest</span>
+<span class=mobile-nav-indicator></span>
+</a>
+</nav>
+<div class=mobile-menu-footer>
+<div class=mobile-social>
+<a href=# class=mobile-social-link aria-label=Twitter>
+<i class=ri-twitter-fill></i>
+</a>
+<a href=# class=mobile-social-link aria-label=LinkedIn>
+<i class=ri-linkedin-fill></i>
+</a>
+<a href=# class=mobile-social-link aria-label=GitHub>
+<i class=ri-github-fill></i>
+</a>
+</div>
+</div>
+</div>
+</div>
+<main>
+<section id=home class=hero>
+<div class=hero-background>
+<div class=hero-shapes>
+<div class="shape shape-1"></div>
+<div class="shape shape-2"></div>
+<div class="shape shape-3"></div>
+</div>
+</div>
+<div class=container>
+<div class=hero-content>
+<div class=hero-text>
+<h2 class="hero-title animate-on-scroll">
+Welcome to my
+<span class=gradient-text>creative space</span>
+</h2>
+<p class="hero-description animate-on-scroll" data-delay=0.2s>
+I'm a passionate developer and writer sharing insights about technology, creativity, and the journey of building meaningful digital experiences.
+</p>
+<div class="hero-buttons animate-on-scroll" data-delay=0.4s>
+<button class="btn btn-primary" onclick='scrollToSection("featured")'>
+Explore Articles
+</button>
+<button class="btn btn-secondary" onclick='scrollToSection("about")'>
+About Me
+</button>
+</div>
+</div>
+<div class=hero-visual>
+<div class="hero-card animate-on-scroll" data-delay=0.6s>
+<div class=code-preview>
+<div class=code-header>
+<div class=code-dots>
+<span></span>
+<span></span>
+<span></span>
+</div>
+</div>
+<div class=code-content>
+<div class=code-line>
+<span class=code-keyword>const</span>
+<span class=code-variable> passion</span>
+<span class=code-operator> = </span>
+<span class=code-string>"coding"</span>
+</div>
+<div class=code-line>
+<span class=code-keyword>const</span>
+<span class=code-variable> creativity</span>
+<span class=code-operator> = </span>
+<span class=code-string>"writing"</span>
+</div>
+<div class=code-line>
+<span class=code-keyword>return</span>
+<span class=code-variable> passion</span>
+<span class=code-operator> + </span>
+<span class=code-variable>creativity</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id=featured class=featured-posts>
+<div class=container>
+<div class="section-header animate-on-scroll">
+<h2 class=section-title>Featured Articles</h2>
+<p class=section-description>
+Handpicked stories that showcase my best work and insights
+</p>
+</div>
+<div class=featured-grid id=featured-posts>
+</div>
+</div>
+</section>
+<section id=latest class=latest-posts>
+<div class=container>
+<div class="section-header animate-on-scroll">
+<h2 class=section-title>Latest Posts</h2>
+<p class=section-description>
+Fresh perspectives and recent discoveries
+</p>
+</div>
+<div class=latest-grid id=latest-posts>
+</div>
+</div>
+</section>
+</main>
+<footer class=footer>
+<div class=container>
+<div class="footer-content animate-on-scroll">
+<div class=footer-main>
+<div class=footer-logo>
+<h3>Luciola</h3>
+<p>Building digital experiences, one line of code at a time.</p>
+</div>
+<div class=footer-links>
+<div class=footer-column>
+<h4>Navigate</h4>
+<a href=#home>Home</a>
+<a href=#featured>Featured</a>
+<a href=#latest>Latest</a>
+<a href=#about>About</a>
+</div>
+<div class=footer-column>
+<h4>Categories</h4>
+<a href=#>Technology</a>
+<a href=#>Development</a>
+<a href=#>Design</a>
+<a href=#>Career</a>
+</div>
+</div>
+</div>
+<div class=footer-bottom>
+<p>&copy; 2025 Luciola. All rights reserved.</p>
+</div>
+</div>
+</div>
+</footer>
+<div class=post-modal id=post-modal>
+<div class=modal-backdrop onclick=closePostModal()></div>
+<div class=modal-content>
+<button class=modal-close onclick=closePostModal() aria-label=Close>×</button>
+<article class=post-article>
+<header class=post-header>
+<div class=post-meta>
+<span class=post-category id=modal-category></span>
+</div>
+<h1 class=post-title id=modal-title></h1>
+<div class=post-author-info>
+<span class=post-author id=modal-author></span>
+<span class=post-date id=modal-date></span>
+<span class=post-read-time id=modal-read-time></span>
+</div>
+</header>
+<div class=post-content id=modal-content>
+</div>
+</article>
+</div>
+</div>
+<script src=posts.js></script>
+<script src=script.js></script>
+</body>
+</html>
