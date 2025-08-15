@@ -1,6 +1,7 @@
 ---
 
-# Simple Blog Website
+# Simple Blog Website  
+[Blog Website link](https://luciola-simple-blog-website.pages.dev/)
 
 A lightweight blog platform built with **HTML**, **CSS**, and **JavaScript**, supporting **Markdown** for post content.
 Posts can include local images from the `images/` folder or external image links.
