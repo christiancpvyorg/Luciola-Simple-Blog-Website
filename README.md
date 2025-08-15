@@ -74,7 +74,7 @@ A design system is more than just a style guide...
 
    ```bash
    git clone https://github.com/christiancpvyorg/Luciola-Simple-Blog-Website.git
-   cd simple-blog
+   cd Luciola-Simple-Blog-Website
    ```
 
 2. **Open in Browser**
