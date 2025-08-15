@@ -73,7 +73,7 @@ A design system is more than just a style guide...
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/simple-blog.git
+   git clone https://github.com/christiancpvyorg/Luciola-Simple-Blog-Website.git
    cd simple-blog
    ```
 
