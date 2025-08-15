@@ -1300,6 +1300,14 @@ section {
     .container {
         max-width: 1600px;
     }
+    .hero-description {
+    max-width: 600px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 20;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
     .featured-grid {
         grid-template-columns: repeat(4, 1fr);
     }
