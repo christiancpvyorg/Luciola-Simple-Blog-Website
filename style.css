@@ -1104,7 +1104,7 @@ section {
 @media screen and (min-width: 1024px) {
     .hero-description {
         max-width: 600px;
-        margin: 0 auto;
+        margin: 1.5rem auto;
         display: -webkit-box;
         -webkit-box-orient: vertical;
         -webkit-line-clamp: 20;
@@ -1123,7 +1123,6 @@ section {
     }
     .hero-description {
         max-width: 600px;
-        margin: 1.5rem auto;
         display: -webkit-box;
         -webkit-box-orient: vertical;
         -webkit-line-clamp: 20;
